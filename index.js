@@ -143,6 +143,8 @@ app.get("/", async (req, res) => {
     }, Math.floor(Math.random() * (120 - 45 + 1) + 45) * 1000);
   }
 
+
+  
   main();
   // const labels = response.data.labels;
   res.json({ "this is Auth": auth });
